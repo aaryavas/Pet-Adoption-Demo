@@ -1,13 +1,4 @@
-Chenghao Fan chf21003
-Yichong Wu yiw21017
-Aarya Vasantlal adv21006
-Minott, Kyle KSM22016
-
-Trello Board: https://trello.com/b/zMRkMlVO/cse2102-spring25-team6
-Prototype (Figma): https://www.figma.com/design/uXbJSQYKwRtAUEgDOKYWrK/Milestone-3?node-id=0-1&t=RMJngXb4iLMGaIH3-1
-
-
-﻿# Team06 Pet Adoption Portal
+##﻿# Team06 Pet Adoption Portal
 
 This project is a full-stack pet adoption portal composed of a Flask backend and a React (Vite) frontend.
 
