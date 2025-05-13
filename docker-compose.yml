@@ -1,0 +1,28 @@
+# filepath: c:\Users\aarya\OneDrive - University of Connecticut\cse2102\milestone7\cse2102-spring25-Team6\docker-compose.yml
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: Team06-backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+    environment:
+      FLASK_ENV: development
+    command: python main.py
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: Team06-frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules  # prevents overwriting container's node_modules with the host’s (if any)
+    command: npm run dev
