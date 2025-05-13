@@ -13,7 +13,7 @@ function About() {
         About This Project
       </h1>
       <p style={{ fontSize: '1.2rem', maxWidth: '600px' }}>
-        The webpage about our adoption of pets was produced by Chenghao Fan, Yichong Wu, Kyle, and Aarya together!
+        This is a demo page made my Aarya Vasantlal to learn and test the functionalites of backend and frontend development. This project involves multiple API Routes including an Admin Approval functionality.
       </p>
     </div>
   );
