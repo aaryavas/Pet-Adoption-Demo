@@ -1,4 +1,4 @@
-##﻿# Team06 Pet Adoption Portal
+# Team06 Pet Adoption Portal
 
 This project is a full-stack pet adoption portal composed of a Flask backend and a React (Vite) frontend.
 
