@@ -4,7 +4,7 @@ This project is a full-stack pet adoption portal composed of a Flask backend and
 
 ## Prerequisites
 
-- Docker and Docker Compose installed on your Windows machine.
+- Docker and Docker Compose installed on your machine.
 - (Optional) Git for version control.
 
 ## Running the Application without Docker
